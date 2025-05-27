@@ -8,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Leaf, Eye, EyeOff } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
-import AuthContext from "@src/contexts/AuthContext";
+import { AuthContext } from "@src/contexts/AuthContext";
 import { useEffect } from "react";
 
 const Auth = () => {
