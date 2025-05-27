@@ -26,14 +26,17 @@ const SMSAlerts = () => {
   const { toast } = useToast();
 
   const handleSaveSettings = () => {
-    if (phoneNumber.trim().length === 0) {
-      toast({
-        title: "Phone Number Required",
-        description: "Please enter your mobile number to enable SMS alerts.",
-        variant: "destructive",
-      });
-      return;
-    }
+    const phoneRegex = /^(\+91)?[6-9]\d{9}$/;
+
+if (!phoneRegex.test(phoneNumber.trim())) {
+  toast({
+    title: "Invalid Phone Number",
+    description: "Please enter a valid Indian mobile number (e.g., +919876543210 or 9876543210).",
+    variant: "destructive",
+  });
+  return;
+}
+
 
     localStorage.setItem("smsAlerts", JSON.stringify({
       phoneNumber,
