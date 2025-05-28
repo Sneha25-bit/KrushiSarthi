@@ -1,4 +1,5 @@
 # KrushiSarthi
+आपका विश्वसनीय कृषि साथी - Your trusted farming companion for better yields, informed decisions, and sustainable agriculture
 
 **Use your preferred IDE**
 
