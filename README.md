@@ -14,7 +14,7 @@ Follow these steps:
 git clone https://github.com/Rakshit1236/KrushiSarthi.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd KrushiSarthi
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -47,4 +47,3 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-)
