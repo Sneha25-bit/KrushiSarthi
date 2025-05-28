@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Auth from ".src/contexts/AuthContext";
+import AuthContext from ".src/contexts/AuthContext.tsx";
 import Index from "./pages/Index";
 import Auth from "./pages/Auth";
 import Tools from "./pages/Tools";
